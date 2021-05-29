@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface ApiFootball {
 
-    @GET("v2/competitions")
+    @GET("/v2/competitions")
     fun getAllCompetitors():Call<Competition>
 }
